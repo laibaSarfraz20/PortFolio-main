@@ -1,22 +1,17 @@
-import COVID from '../assets/COVID.png'
-import NIKE from '../assets/NIKE.png'
-import portfolio  from '../assets/portfolio.png'
-import ebook from '../assets/ebook.png'
-import Library from '../assets/library.png'
-import Security from '../assets/security.png'
+
 export const projects = [
   {
     id: 0,
     title: "covid-19",
     description: "Designed a responsive website to spread COVID awareness using HTML, CSS, and Bootstrap.",
-    Image: COVID,
+    Image: "/assets/COVID.png",
     githubLink: "https://github.com/laibaSarfraz20/covid2",
     liveLink: "https://lighthearted-crostata-7e4290.netlify.app/",
   }, {
     id: 1,
     title: "Nikee",
     description: "Developed a responsive Nike-themed website showcasing modern design.",
-    Image: NIKE,
+    Image: "/assets/NIKE.png",
     githubLink: "https://github.com/laibaSarfraz20/NIKEE",
     liveLink: "https://sweet-eclair-8d7f38.netlify.app/",
   },
@@ -25,7 +20,7 @@ export const projects = [
     title: "Ebook",
     description:
       "Crafted an engaging e-book website with HTML, CSS, and JavaScript (responsiveness pending).",
-   Image :ebook,
+   Image :"/assets/ebook.png",
     githubLink: "https://github.com/laibaSarfraz20/my-e-book",
     liveLink: "https://steady-zuccutto-6ce338.netlify.app",
   },
@@ -33,7 +28,7 @@ export const projects = [
     id: 3,
     title: "Portfolio",
     description: "A simple Portfolio",
-    Image:portfolio,
+    Image:"/assets/portfolio.png",
     githubLink: "https://github.com/laibaSarfraz20/laibasarfraz-portfolio",
     liveLink: "laibasarfraz-portfolio.vercel.app",
   },
@@ -41,7 +36,7 @@ export const projects = [
     id: 4,
     title: "Library",
     description:"A python project that manages book records.",
-    Image:Library,
+    Image:"/assets/library.png",
     githubLink: "https://github.com/laibaSarfraz20/Personal-Library-Manager-Streamlit-master",
     liveLink: "https://projectpy-2xun5fjqccgxmexv2mopbj.streamlit.app/",
   },
@@ -50,7 +45,7 @@ export const projects = [
     title: "Secure Data Encryption System ",
     description:
  "A python project that encrypts and decrypts data using cryptography library.",
-    Image:Security,
+    Image:"/assets/security.png",
     githubLink: "https://github.com/laibaSarfraz20/securitydatasystem-py-main",
     liveLink: "https://securedataencrptpy-imzvfppfxstzj2nujodbuv.streamlit.app/",
   },
