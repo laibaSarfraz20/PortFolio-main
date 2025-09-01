@@ -9,7 +9,7 @@ import {
 
 export const links = [
   {
-    href: "https://github.com/Algoture",
+    href: "https://github.com/laibaSarfraz20",
     name: "GitHub",
     target: "_blank",
     Icon: <GitHubIcon className="md:size-6 size-7 fill-white/85" />,
@@ -22,7 +22,7 @@ export const links = [
     Icon: <GmailIcon className="md:size-6 size-7 fill-white/85" />,
   },
   {
-    href: "https://www.linkedin.com/in/umesh27/",
+    href: "https://www.linkedin.com/in/laiba-sarfraz-72449431a/",
     name: "LinkedIn",
     target: "_blank",
     Icon: <LinkedInIcon className="md:size-6 size-7 fill-white/85" />,
