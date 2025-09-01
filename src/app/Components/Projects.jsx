@@ -34,7 +34,7 @@ const Projects = () => {
 
               {/* <span className="absolute w-[40%] -bottom-px  left-0  h-px bg-gradient-to-r from-gray-500/0 via-accent to-gray-500/0 dark:from-gray-400/0 dark:via-accent/50 dark:to-gray-400/0"></span> */}
               <Image
-                src={project.image}
+                src={project.Image}
                 alt={`${project.title} project image`}
                 width={300}
                 height={200}
